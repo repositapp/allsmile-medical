@@ -1,0 +1,17 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/pane5693/public_html/
+    - /bin/cp .editorconfig $DEPLOYPATH
+    - /bin/cp .gitignore $DEPLOYPATH
+    - /bin/cp .htaccess $DEPLOYPATH
+    - /bin/cp composer.json $DEPLOYPATH
+    - /bin/cp contributing.md $DEPLOYPATH
+    - /bin/cp index.php $DEPLOYPATH
+    - /bin/cp license.txt $DEPLOYPATH
+    - /bin/cp readme.rst $DEPLOYPATH
+    - /bin/cp -R application $DEPLOYPATH
+    - /bin/cp -R assets $DEPLOYPATH
+    - /bin/cp -R dbMedical $DEPLOYPATH
+    - /bin/cp -R system $DEPLOYPATH
+    - /bin/cp -R user_guide $DEPLOYPATH
